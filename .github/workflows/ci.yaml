@@ -47,7 +47,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: registry.deeplay.io/library/infra/grafana
+          images: registry.deeplay.io/infra/grafana
           tags: |
             type=raw,value=latest,enable={{is_default_branch}}
             type=raw,value={{branch}}-{{sha}},enable={{is_default_branch}}
