@@ -1,4 +1,5 @@
 FROM bitnami/grafana:11.5.0
 
-COPY --chown=grafana:root grafana-clickhouse-datasource /opt/bitnami/grafana/data/plugins/grafana-clickhouse-datasource
-ENV GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=grafana-clickhouse-datasource
+RUN mkdir /opt/bitnami/grafana/plugins && chmod 777 /opt/bitnami/grafana/plugins
+COPY --chown=grafana:root grafana-clickhouse-datasource /opt/bitnami/grafana/plugins/grafana-clickhouse-datasource
+ENV GF_PATHS_PLUGINS=/opt/bitnami/grafana/plugins
