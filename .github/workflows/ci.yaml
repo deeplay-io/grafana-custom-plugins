@@ -17,12 +17,10 @@ jobs:
           access_token: ${{ github.token }}
 
   build:
-    container:
-      image: ubuntu:22.04
     runs-on:
       - self-hosted
       - Linux
-      - kube-common-test
+      - kube-common
 
     name: build
 
