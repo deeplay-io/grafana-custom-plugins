@@ -59,8 +59,8 @@
       }
     ],
     "screenshots": [],
-    "version": "4.5.1",
-    "updated": "2025-01-13"
+    "version": "4.10.0",
+    "updated": "2025-07-03"
   },
   "dependencies": {
     "grafanaDependency": ">=9.5.0",
