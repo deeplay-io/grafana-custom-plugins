@@ -1,4 +1,4 @@
-FROM bitnami/grafana:12.0.1
+FROM bitnami/grafana:12.1.1
 
 RUN mkdir /opt/bitnami/grafana/plugins && chmod 777 /opt/bitnami/grafana/plugins
 COPY --chown=1001:root --chmod=755 grafana-clickhouse-datasource /opt/bitnami/grafana/plugins/grafana-clickhouse-datasource
