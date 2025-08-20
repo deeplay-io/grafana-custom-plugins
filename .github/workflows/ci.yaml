@@ -5,7 +5,7 @@ on:
     branches:
       - '**'
     tags:
-      - 'release-*'
+      - '**'
 
 jobs:
   cancel-previous:
