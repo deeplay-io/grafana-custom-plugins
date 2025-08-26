@@ -1,0 +1,23 @@
+on:
+  push:
+    tags:
+      - 'v*' # триггер по тегам, например v1.0.0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create zip archive
+        run: |
+          zip -r grafana-clickhouse-datasource.zip grafana-clickhouse-datasource
+
+      - name: Upload Release Asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: grafana-clickhouse-datasource.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
