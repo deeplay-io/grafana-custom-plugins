@@ -19,7 +19,7 @@ jobs:
 
       - name: Validate version match
         run: |
-          CLICKHOUSE_PLUGIN_VERSION=${{ steps.plugin_version.outputs.version }} >> $GITHUB_ENV
+          echo "CLICKHOUSE_PLUGIN_VERSION=${{ steps.plugin_version.outputs.version }}" >> $GITHUB_ENV
 
       - name: Create zip archive
         run: |
