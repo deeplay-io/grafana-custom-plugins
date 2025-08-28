@@ -23,11 +23,11 @@ jobs:
 
       - name: Create zip archive
         run: |
-          zip -r grafana-clickhouse-datasource-$CLICKHOUSE_PLUGIN_VERSION.zip grafana-clickhouse-datasource
+          zip -r grafana-clickhouse-datasource-${{ env.CLICKHOUSE_PLUGIN_VERSION }}.zip grafana-clickhouse-datasource
 
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
         with:
-          files: grafana-clickhouse-datasource-$CLICKHOUSE_PLUGIN_VERSION.zip
+          files: grafana-clickhouse-datasource-${{ env.CLICKHOUSE_PLUGIN_VERSION }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
