@@ -15,15 +15,19 @@ jobs:
         id: plugin_version
         run: |
           VERSION=$(jq -r '.info.version' grafana-clickhouse-datasource/plugin.json)
-          echo "version=$GRAFANA_CLICKHOUSE_VERSION" >> $GITHUB_OUTPUT
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Validate version match
+        run: |
+          CLICKHOUSE_PLUGIN_VERSION=${{ steps.plugin_version.outputs.version }} >> $GITHUB_ENV
 
       - name: Create zip archive
         run: |
-          zip -r grafana-clickhouse-datasource-$GRAFANA_CLICKHOUSE_VERSION.zip grafana-clickhouse-datasource
+          zip -r grafana-clickhouse-datasource-$CLICKHOUSE_PLUGIN_VERSION.zip grafana-clickhouse-datasource
 
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
         with:
-          files: grafana-clickhouse-datasource-$GRAFANA_CLICKHOUSE_VERSION.zip
+          files: grafana-clickhouse-datasource-$CLICKHOUSE_PLUGIN_VERSION.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
