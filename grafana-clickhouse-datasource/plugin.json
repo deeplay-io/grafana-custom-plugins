@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
   "type": "datasource",
-  "name": "ClickHouse",
-  "id": "grafana-clickhouse-datasource",
+  "name": "ClickHouse OAuth2",
+  "id": "clickhouse-datasource-oauth2",
   "metrics": true,
   "backend": true,
   "logs": true,
@@ -39,9 +39,9 @@
   ],
   "category": "sql",
   "info": {
-    "description": "ClickHouse datasource plugin for Grafana",
+    "description": "ClickHouse datasource plugin for Grafana with OAuth2 support",
     "author": {
-      "name": "Grafana Labs"
+      "name": "Grafana Labs and Botriki"
     },
     "keywords": ["Simple"],
     "logos": {
@@ -60,7 +60,7 @@
     ],
     "screenshots": [],
     "version": "4.10.0",
-    "updated": "2025-07-03"
+    "updated": "2025-09-19"
   },
   "dependencies": {
     "grafanaDependency": ">=9.5.0",

@@ -5,7 +5,7 @@
 			"label": "The Datasource",
 			"description": "",
 			"type": "datasource",
-			"pluginId": "grafana-clickhouse-datasource",
+			"pluginId": "clickhouse-datasource-oauth2",
 			"pluginName": "ClickHouse"
 		}
 	],
@@ -19,7 +19,7 @@
 		},
 		{
 			"type": "datasource",
-			"id": "grafana-clickhouse-datasource",
+			"id": "clickhouse-datasource-oauth2",
 			"name": "ClickHouse",
 			"version": "4.3.2"
 		},
@@ -68,7 +68,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -147,7 +147,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -173,7 +173,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -252,7 +252,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -278,7 +278,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -357,7 +357,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -383,7 +383,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -462,7 +462,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -488,7 +488,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -567,7 +567,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -593,7 +593,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -672,7 +672,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -698,7 +698,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -777,7 +777,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -803,7 +803,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -882,7 +882,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -908,7 +908,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -987,7 +987,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -1013,7 +1013,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -1092,7 +1092,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -1118,7 +1118,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -1197,7 +1197,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -1223,7 +1223,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -1302,7 +1302,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -1328,7 +1328,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -1407,7 +1407,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -1433,7 +1433,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -1512,7 +1512,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -1538,7 +1538,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -1617,7 +1617,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -1643,7 +1643,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -1722,7 +1722,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -1748,7 +1748,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -1827,7 +1827,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -1853,7 +1853,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -1932,7 +1932,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -1971,7 +1971,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -2050,7 +2050,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -2076,7 +2076,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -2155,7 +2155,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -2181,7 +2181,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -2260,7 +2260,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -2286,7 +2286,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -2365,7 +2365,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -2391,7 +2391,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -2470,7 +2470,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -2496,7 +2496,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -2575,7 +2575,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -2601,7 +2601,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -2680,7 +2680,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -2706,7 +2706,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -2785,7 +2785,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -2811,7 +2811,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -2890,7 +2890,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -2916,7 +2916,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -2995,7 +2995,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -3021,7 +3021,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -3100,7 +3100,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -3126,7 +3126,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -3205,7 +3205,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -3231,7 +3231,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -3310,7 +3310,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -3336,7 +3336,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -3415,7 +3415,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -3441,7 +3441,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -3520,7 +3520,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -3546,7 +3546,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -3625,7 +3625,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -3651,7 +3651,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -3730,7 +3730,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -3756,7 +3756,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -3835,7 +3835,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -3861,7 +3861,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -3940,7 +3940,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -3966,7 +3966,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -4045,7 +4045,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -4071,7 +4071,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -4150,7 +4150,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -4176,7 +4176,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -4255,7 +4255,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -4281,7 +4281,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -4360,7 +4360,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -4386,7 +4386,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -4465,7 +4465,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -4491,7 +4491,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -4570,7 +4570,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -4596,7 +4596,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -4675,7 +4675,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -4701,7 +4701,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -4780,7 +4780,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",
@@ -4806,7 +4806,7 @@
 		},
 		{
 			"datasource": {
-				"type": "grafana-clickhouse-datasource",
+				"type": "clickhouse-datasource-oauth2",
 				"uid": "${the_datasource}"
 			},
 			"fieldConfig": {
@@ -4885,7 +4885,7 @@
 			"targets": [
 				{
 					"datasource": {
-						"type": "grafana-clickhouse-datasource",
+						"type": "clickhouse-datasource-oauth2",
 						"uid": "${the_datasource}"
 					},
 					"editorType": "sql",

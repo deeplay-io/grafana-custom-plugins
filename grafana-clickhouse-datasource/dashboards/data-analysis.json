@@ -22,7 +22,7 @@
     },
     {
       "type": "datasource",
-      "id": "grafana-clickhouse-datasource",
+      "id": "clickhouse-datasource-oauth2",
       "name": "ClickHouse",
       "version": "2.0.0"
     },
@@ -77,7 +77,7 @@
   "panels": [
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "fieldConfig": {
@@ -134,7 +134,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -178,7 +178,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "description": "",
@@ -236,7 +236,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -268,7 +268,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "description": "",
@@ -313,7 +313,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -334,7 +334,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "description": "",
@@ -379,7 +379,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -400,7 +400,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "fieldConfig": {
@@ -556,7 +556,7 @@
             "mode": "list"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -593,7 +593,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "fieldConfig": {
@@ -646,7 +646,7 @@
             "mode": "list"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -667,7 +667,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "fieldConfig": {
@@ -720,7 +720,7 @@
             "mode": "list"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -741,7 +741,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "fieldConfig": {
@@ -814,7 +814,7 @@
             "mode": "list"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -835,7 +835,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "fieldConfig": {
@@ -907,7 +907,7 @@
             "mode": "list"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -928,7 +928,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "fieldConfig": {
@@ -1081,7 +1081,7 @@
             "mode": "list"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -1132,7 +1132,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "fieldConfig": {
@@ -1224,7 +1224,7 @@
             "mode": "list"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -1260,7 +1260,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "fieldConfig": {
@@ -1447,7 +1447,7 @@
             "mode": "list"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -1502,7 +1502,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "description": "",
@@ -1667,7 +1667,7 @@
             "mode": "list"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -1708,7 +1708,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "description": "",
@@ -1787,7 +1787,7 @@
             "mode": "list"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -1834,7 +1834,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "description": "",
@@ -1883,7 +1883,7 @@
             "mode": "list"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -1917,7 +1917,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "fieldConfig": {
@@ -2114,7 +2114,7 @@
             "mode": "list"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "format": 1,
@@ -2184,7 +2184,7 @@
         "multi": false,
         "name": "datasource",
         "options": [],
-        "query": "grafana-clickhouse-datasource",
+        "query": "clickhouse-datasource-oauth2",
         "queryValue": "",
         "refresh": 1,
         "regex": "",
@@ -2194,7 +2194,7 @@
       {
         "current": {},
         "datasource": {
-          "type": "grafana-clickhouse-datasource",
+          "type": "clickhouse-datasource-oauth2",
           "uid": "${datasource}"
         },
         "definition": "SELECT name FROM system.databases;\n",
@@ -2214,7 +2214,7 @@
       {
         "current": {},
         "datasource": {
-          "type": "grafana-clickhouse-datasource",
+          "type": "clickhouse-datasource-oauth2",
           "uid": "${datasource}"
         },
         "definition": "SELECT name FROM system.tables WHERE database IN (${database})",

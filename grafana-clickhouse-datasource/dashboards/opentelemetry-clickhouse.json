@@ -43,7 +43,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "fieldConfig": {
@@ -123,7 +123,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "clickhouse-traces"
           },
           "editorType": "sql",
@@ -183,7 +183,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "description": "",
@@ -265,7 +265,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "clickhouse-traces"
           },
           "editorType": "sql",
@@ -325,7 +325,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "description": "",
@@ -407,7 +407,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "clickhouse-traces"
           },
           "editorType": "sql",
@@ -467,7 +467,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "fieldConfig": {
@@ -635,7 +635,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "clickhouse-traces"
           },
           "editorType": "sql",
@@ -678,7 +678,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "gridPos": {
@@ -789,7 +789,7 @@
             "table": "otel_traces"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "clickhouse-traces"
           },
           "editorType": "builder",
@@ -828,7 +828,7 @@
     },
     {
       "datasource": {
-        "type": "grafana-clickhouse-datasource",
+        "type": "clickhouse-datasource-oauth2",
         "uid": "${datasource}"
       },
       "gridPos": {
@@ -881,7 +881,7 @@
             "table": "otel_logs"
           },
           "datasource": {
-            "type": "grafana-clickhouse-datasource",
+            "type": "clickhouse-datasource-oauth2",
             "uid": "${datasource}"
           },
           "editorType": "builder",
@@ -908,7 +908,7 @@
         "multi": false,
         "name": "datasource",
         "options": [],
-        "query": "grafana-clickhouse-datasource",
+        "query": "clickhouse-datasource-oauth2",
         "queryValue": "",
         "refresh": 1,
         "regex": "",
@@ -926,7 +926,7 @@
           ]
         },
         "datasource": {
-          "type": "grafana-clickhouse-datasource",
+          "type": "clickhouse-datasource-oauth2",
           "uid": "${datasource}"
         },
         "definition": "SELECT DISTINCT ServiceName FROM otel_traces",
@@ -951,7 +951,7 @@
           "value": "$__all"
         },
         "datasource": {
-          "type": "grafana-clickhouse-datasource",
+          "type": "clickhouse-datasource-oauth2",
           "uid": "${datasource}"
         },
         "definition": "SELECT DISTINCT TraceId FROM otel_traces WHERE ParentSpanId = '' LIMIT 100",
